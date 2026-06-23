@@ -62,7 +62,7 @@ $activeCategory = $category ?? 'Semua';
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-10">
         <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-5">
           @foreach($courseCategories as $cat)
-          <a href="/courses?category={{ $cat['label'] }}" class="group rounded-[2rem] border p-6 shadow-xl transition-all hover:-translate-y-2 {{ $cat['surface'] }}">
+          <a href="/courses?category={{ $cat['label'] }}" class="group rounded-[2rem] border p-6 shadow-xl transition-all hover:-translate-y-2 flex flex-col h-full {{ $cat['surface'] }}">
             <div class="flex items-center justify-between gap-4">
               <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-slate-900 shadow-md">
                 @if($cat['label'] === 'OSN')
@@ -92,7 +92,7 @@ $activeCategory = $category ?? 'Semua';
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           @foreach($courses as $course)
-          <a href="/courses/{{ $course->slug }}" class="group rounded-[2rem] border border-slate-100 bg-white p-6 shadow-xl shadow-slate-200/40 transition-all hover:-translate-y-2 hover:shadow-2xl">
+          <a href="/courses/{{ $course->slug }}" class="group rounded-[2rem] border border-slate-100 bg-white p-6 shadow-xl shadow-slate-200/40 transition-all hover:-translate-y-2 hover:shadow-2xl flex flex-col h-full">
             <div
               class="rounded-[1.5rem] bg-gradient-to-br p-5 text-white {{ $course->category === 'OSN' ? 'from-indigo-700 to-sky-400' : ($course->category === 'UTBK' ? 'from-amber-500 to-orange-400' : 'from-blue-700 to-cyan-400') }}"
             >
