@@ -54,7 +54,7 @@
         <div class="relative w-full h-full lg:min-h-[600px] flex justify-center items-center mt-8 lg:mt-0">
           <div class="absolute inset-0 bg-gradient-to-tr from-brand-light to-brand-accent rounded-[3rem] transform rotate-3 scale-105 opacity-20 blur-2xl"></div>
           <div class="relative w-full aspect-square md:aspect-[4/3] lg:aspect-auto lg:h-[90%] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white">
-            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Siswa Belajar Bersama NLS" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" />
+            <img src="/images/hero.png" alt="Siswa Belajar Bersama NLS" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" />
             <!-- Overlay feature highlight -->
             <div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-md px-6 py-3 rounded-2xl shadow-xl flex items-center gap-4">
               <div class="w-10 h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold">✓</div>
