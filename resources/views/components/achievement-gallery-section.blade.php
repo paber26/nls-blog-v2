@@ -1,3 +1,32 @@
+@php
+$previewItems = [
+  [
+    'category' => 'Pembinaan',
+    'title' => 'TEAM MATH OSN DKI',
+    'caption' => 'Dokumentasi pembinaan tim OSN Matematika untuk delegasi tingkat DKI.',
+    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/matematika-dki-qw89ml63p297f2cpg0qfpinp19hhjy4d71c2yy6bio.jpeg'
+  ],
+  [
+    'category' => 'Kemitraan Sekolah',
+    'title' => 'TEAM SMAN 8 JAKARTA',
+    'caption' => 'Kolaborasi pembinaan siswa bersama sekolah mitra untuk target seleksi dan prestasi.',
+    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/sman-8-jakarta-osn-qwxag600ldwjoykwhdtwbiz35u7xpgatijqx00iksw.jpeg'
+  ],
+  [
+    'category' => 'Prestasi Internasional',
+    'title' => 'GOLD IEO - SILVER IBO',
+    'caption' => 'Capaian kompetisi internasional sebagai bukti bahwa pembinaan NLS diarahkan pada hasil nyata.',
+    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/internasional-juara-qwxaonhkajiqi895xjvnbvvw82e872zl0jrpyxxmmo.jpeg'
+  ],
+  [
+    'category' => 'Prestasi Siswa',
+    'title' => 'JUARA 1 MENYANYI',
+    'caption' => 'Pendampingan siswa untuk ajang FLS2N dan kompetisi non-akademik secara lebih terstruktur.',
+    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/fls2n-nyanyi-scaled-qx8bcuvpnk1mddgjk8ze2bq11l2wi6ewd04be4j4k0.jpeg'
+  ]
+];
+@endphp
+
 <section id="achievement" class="relative overflow-hidden bg-white py-24">
     <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(59,130,246,0.08),_transparent_32%),radial-gradient(circle_at_bottom_right,_rgba(245,158,11,0.10),_transparent_30%)]"></div>
 
@@ -35,7 +64,7 @@
           </div>
 
           <div class="flex flex-col sm:flex-row gap-4">
-            <a href="/achievementList"
+            <a href="/achievements" class="inline-flex items-center justify-center rounded-full bg-brand-blue px-6 py-3 font-semibold text-white transition-all hover:-translate-y-1 hover:bg-brand-light">
               Lihat Semua Achievement
             </a>
             <a
@@ -50,22 +79,22 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          @foreach($previewItems as $item)
           <article
-            v-for="item in previewItems"
-            :key="item.title"
             class="group overflow-hidden rounded-[1.75rem] border border-slate-100 bg-brand-surface shadow-lg shadow-slate-200/40 transition-all hover:-translate-y-2 hover:shadow-2xl"
           >
             <div class="relative overflow-hidden">
-              <img :src="item.image" :alt="item.title" class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <img src="{{ $item['image'] }}" alt="{{ $item['title'] }}" class="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105" />
               <div class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-700">
-                {{ item.category }}
+                {{ $item['category'] }}
               </div>
             </div>
             <div class="p-5 space-y-2">
-              <h3 class="text-xl font-bold text-slate-900">{{ item.title }}</h3>
-              <p class="text-sm leading-relaxed text-slate-600">{{ item.caption }}</p>
+              <h3 class="text-xl font-bold text-slate-900">{{ $item['title'] }}</h3>
+              <p class="text-sm leading-relaxed text-slate-600">{{ $item['caption'] }}</p>
             </div>
           </article>
+          @endforeach
         </div>
       </div>
     </div>

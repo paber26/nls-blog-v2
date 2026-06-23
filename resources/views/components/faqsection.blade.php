@@ -1,3 +1,32 @@
+@php
+$faqs = [
+  [
+    'question' => 'Tentang NLS',
+    'answer' => 'NLS (Next Level Study) adalah perusahaan edukasi berbasis komunitas belajar yang berdedikasi membangun pelatihan berkualitas tinggi, menjunjung edukasi anti-korupsi pada proyek sekolah, dan hadir sebagai teladan bagi lembaga lainnya.',
+  ],
+  [
+    'question' => 'Dimana Kantor NLS Indonesia?',
+    'answer' => 'Kantor pusat NLS berlokasi di Jalan Pahlawan No. 26 Duren Jaya, Bekasi Timur. Anda dapat mengunjungi kami pada jam kerja untuk konsultasi program dan pendaftaran secara langsung.',
+  ],
+  [
+    'question' => 'Apa Saja Program NLS?',
+    'answer' => "1. Pelatihan Siswa (OSN & SNBT)\n2. Pelatihan Guru\n3. Bimbingan Belajar\n4. Les Privat\n5. Event Organization\n6. Konsultan Pendidikan",
+  ],
+  [
+    'question' => 'Bagaimana cara mendaftar program belajar di NLS?',
+    'answer' => 'Anda dapat mendaftar dengan menghubungi kami melalui tombol WhatsApp yang tersedia di website ini. Tim kami akan segera membalas dan memandu proses pendaftaran Anda langkah demi langkah.',
+  ],
+  [
+    'question' => 'Berapa biaya program di NLS dan apakah ada promo?',
+    'answer' => 'Biaya program sangat bervariasi bergantung pada jenis pelatihan dan durasi. Kami secara rutin mengadakan potongan harga (diskon) dan promo khusus pendaftaran jalur Early Bird. Silakan hubungi admin kami untuk informasi tarif terbaru.',
+  ],
+  [
+    'question' => 'Apakah NLS menyediakan layanan secara online atau tatap muka (offline)?',
+    'answer' => 'Kami menyediakan dua metode bimbingan: kelas Interaktif Online dan kelas Offline (Tatap Muka) eksklusif yang bisa disesuaikan dengan kebutuhan dan lokasi Anda.',
+  ]
+];
+@endphp
+
 <section class="relative bg-brand-blue pt-20 pb-40 overflow-hidden">
     <!-- Decorative SVG Wave at the Bottom to blend with Footer bg-slate-900 -->
     <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-0">
@@ -20,36 +49,31 @@
         <!-- FAQ Accordion -->
         <div class="text-white space-y-8 pl-0 lg:pl-10">
           
-          <div class="space-y-4">
-            <div v-for="(faq, index) in faqs" :key="index" class="border-b border-white/20 pb-4">
+          <div class="space-y-4" x-data="{ active: 0 }">
+            @foreach($faqs as $index => $faq)
+            <div class="border-b border-white/20 pb-4">
               <button 
-                @click="toggleFaq(index)"
+                @click="active = active === {{ $index }} ? null : {{ $index }}"
                 class="w-full flex justify-between items-start text-left focus:outline-none group gap-4 mt-2"
               >
                 <div class="flex items-start gap-4 mr-4 mt-1">
-                  <svg class="w-4 h-4 transition-transform duration-300 flex-shrink-0 mt-1" :class="{'rotate-90': faq.isOpen}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+                  <svg class="w-4 h-4 transition-transform duration-300 flex-shrink-0 mt-1" :class="{'rotate-90': active === {{ $index }}}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
                 </div>
                 <span class="text-[1.1rem] font-semibold flex-1 font-heading border-none outline-none">
-                  {{ faq.question }}
+                  {{ $faq['question'] }}
                 </span>
               </button>
               
-              <transition
-                enter-active-class="transition-all duration-300 ease-out"
-                enter-from-class="opacity-0 max-h-0"
-                enter-to-class="opacity-100 max-h-[500px]"
-                leave-active-class="transition-all duration-300 ease-in"
-                leave-from-class="opacity-100 max-h-[500px]"
-                leave-to-class="opacity-0 max-h-0"
+              <div 
+                x-show="active === {{ $index }}" 
+                x-collapse
+                class="pl-12 pt-4 text-brand-surface/90 leading-relaxed text-[0.95rem] whitespace-pre-line overflow-hidden"
+                style="display: none;"
               >
-                <div 
-                  v-show="faq.isOpen" 
-                  class="pl-12 pt-4 text-brand-surface/90 leading-relaxed text-[0.95rem] whitespace-pre-line overflow-hidden"
-                >
-                  {{ faq.answer }}
-                </div>
-              </transition>
+                {{ $faq['answer'] }}
+              </div>
             </div>
+            @endforeach
           </div>
         </div>
         
