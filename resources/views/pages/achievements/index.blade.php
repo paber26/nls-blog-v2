@@ -5,43 +5,43 @@ $galleryItems = [
     'category' => 'Pembinaan',
     'title' => 'TEAM MATH OSN DKI',
     'caption' => 'Dokumentasi pembinaan tim OSN Matematika untuk delegasi tingkat DKI.',
-    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/matematika-dki-qw89ml63p297f2cpg0qfpinp19hhjy4d71c2yy6bio.jpeg'
+    'image' => 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop'
   ],
   [
     'category' => 'Kemitraan Sekolah',
     'title' => 'TEAM SMAN 8 JAKARTA',
     'caption' => 'Kolaborasi pembinaan siswa bersama sekolah mitra untuk target seleksi dan prestasi.',
-    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/sman-8-jakarta-osn-qwxag600ldwjoykwhdtwbiz35u7xpgatijqx00iksw.jpeg'
+    'image' => 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=800&auto=format&fit=crop'
   ],
   [
     'category' => 'Prestasi Internasional',
     'title' => 'GOLD IEO - SILVER IBO',
     'caption' => 'Capaian kompetisi internasional sebagai bukti bahwa pembinaan NLS diarahkan pada hasil nyata.',
-    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/internasional-juara-qwxaonhkajiqi895xjvnbvvw82e872zl0jrpyxxmmo.jpeg'
+    'image' => 'https://images.unsplash.com/photo-1561525140-c2a4cc68e4bd?q=80&w=800&auto=format&fit=crop'
   ],
   [
     'category' => 'Prestasi Siswa',
     'title' => 'JUARA 1 MENYANYI',
     'caption' => 'Pendampingan siswa untuk ajang FLS2N dan kompetisi non-akademik secara lebih terstruktur.',
-    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/fls2n-nyanyi-scaled-qx8bcuvpnk1mddgjk8ze2bq11l2wi6ewd04be4j4k0.jpeg'
+    'image' => 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop'
   ],
   [
     'category' => 'Prestasi Siswa',
     'title' => 'JUARA 2 BACA PUISI',
     'caption' => 'Pendampingan talenta siswa dalam lomba literasi dan seni dengan target prestasi yang jelas.',
-    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/fls2n-baca-puisi-scaled-qx8b9gooz3ecg2e1ds5w26k3tht6pixsk7b705kb0w.jpeg'
+    'image' => 'https://images.unsplash.com/photo-1455390582262-044cdead27d8?q=80&w=800&auto=format&fit=crop'
   ],
   [
     'category' => 'Prestasi Internasional',
     'title' => 'SILVER IAPHO',
     'caption' => 'NLS turut mendampingi siswa menuju capaian medali dalam ajang sains tingkat tinggi.',
-    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/SILVER-IAPHO-scaled-qx8b87kfv1okys7kp8nsqhxzazzkg1yodzzvyvf7bk.jpeg'
+    'image' => 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=800&auto=format&fit=crop'
   ],
   [
     'category' => 'Prestasi Debat',
     'title' => 'GOLD & SILVER LDBI',
     'caption' => 'Prestasi debat dan kompetisi akademik lain yang memperlihatkan spektrum pembinaan NLS.',
-    'image' => 'https://next-level-study.com/wp-content/uploads/elementor/thumbs/gold-ldbi-qx8b1yx0hn51vz9w51jyokmtbwquce6tv42u9qoamo.jpeg'
+    'image' => 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=800&auto=format&fit=crop'
   ]
 ];
 @endphp
