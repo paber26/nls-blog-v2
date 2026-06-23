@@ -1,0 +1,888 @@
+[
+  {
+    "slug": "pelatihan-osn-kebumian-sma",
+    "title": "Olimpiade Kebumian SMA",
+    "fullTitle": "Olimpiade Kebumian SMA | OSN Kebumian NLS ID",
+    "subject": "Kebumian",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "enrolled": "238 peserta",
+    "lastUpdated": "11 Februari 2024",
+    "certificate": true,
+    "instructor": "Han Yusan",
+    "instructorRole": "Mentor Olimpiade NLS",
+    "shortDescription": "Course online untuk mendukung persiapan OSN Kebumian dari tingkat kota/kabupaten, provinsi, sampai nasional.",
+    "about": "Course ini dirancang untuk membantu siswa mempelajari OSN Kebumian secara bertahap melalui silabus terarah, video pembelajaran, bank materi, dan latihan soal yang mengikuti topik-topik penting dalam kompetisi.",
+    "highlights": [
+      "Silabus OSN Kebumian yang tersusun per topik besar",
+      "Materi video dan referensi belajar yang mudah diikuti",
+      "Latihan soal per topik dan evaluasi gaya OSN",
+      "Sertifikat penyelesaian setelah materi diselesaikan"
+    ],
+    "disclaimerSources": [
+      "Pengajar tim NLS ID",
+      "Video Youtube dengan materi yang relevan",
+      "Kanal yang terafiliasi Puspresnas",
+      "Arsip pelatihan online bersama dari periode sebelumnya"
+    ],
+    "tags": [
+      "Kebumian",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Ilmu Kebumian",
+        "lessons": [
+          {
+            "title": "Pengantar Ilmu Kebumian",
+            "duration": "33:18"
+          },
+          {
+            "title": "Pendahuluan Geologi",
+            "duration": "29:05"
+          },
+          {
+            "title": "Tektonik Lempeng",
+            "duration": "22:09"
+          },
+          {
+            "title": "Kristalografi",
+            "duration": "16:17"
+          },
+          {
+            "title": "Klasifikasi Mineral",
+            "duration": "29:44"
+          },
+          {
+            "title": "Sifat Fisik Mineral",
+            "duration": "33:57"
+          },
+          {
+            "title": "Batuan Beku",
+            "duration": "01:06:31"
+          },
+          {
+            "title": "Batuan Sedimen",
+            "duration": "58:58"
+          },
+          {
+            "title": "Batuan Metamorf",
+            "duration": "58:58"
+          },
+          {
+            "title": "Batuan Piroklastik",
+            "duration": "39:08"
+          },
+          {
+            "title": "Magma dan Gunung Api",
+            "duration": "01:01:18"
+          },
+          {
+            "title": "Geologi Struktur: Kekar dan Patahan",
+            "duration": "01:03:40"
+          },
+          {
+            "title": "Geologi Struktur: Lipatan",
+            "duration": "31:06"
+          },
+          {
+            "title": "Pengantar Geomorfologi",
+            "duration": "40:48"
+          },
+          {
+            "title": "Geomorfologi Struktural dan Eolian",
+            "duration": "58:57"
+          },
+          {
+            "title": "Geomorfologi Fluvial dan Karst",
+            "duration": "50:23"
+          },
+          {
+            "title": "Geomorfologi Pesisir dan Glasial",
+            "duration": "01:15:25"
+          },
+          {
+            "title": "Stratigrafi",
+            "duration": "52:04"
+          },
+          {
+            "title": "Paleontologi Fosil",
+            "duration": "24:29"
+          },
+          {
+            "title": "Skala Waktu Geologi dan Penanggalan Radiometrik",
+            "duration": "34:32"
+          },
+          {
+            "title": "Peta Topografi, Peta Geologi, dan Pemetaan Lapangan",
+            "duration": "40:22"
+          },
+          {
+            "title": "Hidrogeologi Air Tanah dan Sistem Akuifer",
+            "duration": "58:32"
+          }
+        ]
+      },
+      {
+        "title": "Meteorologi",
+        "lessons": [
+          {
+            "title": "Pendahuluan Meteorologi",
+            "duration": "34:35"
+          },
+          {
+            "title": "Unsur-Unsur Cuaca Lengkap",
+            "duration": "50:18"
+          }
+        ]
+      },
+      {
+        "title": "Oseanografi",
+        "lessons": [
+          {
+            "title": "Pendahuluan Oseanografi",
+            "duration": "20:04"
+          },
+          {
+            "title": "Samudera",
+            "duration": "31:39"
+          },
+          {
+            "title": "Teori Tektonik Lempeng",
+            "duration": "24:55"
+          },
+          {
+            "title": "Sejarah dan Proses Pembentukan Samudera",
+            "duration": "34:16"
+          },
+          {
+            "title": "Morfologi Dasar Laut (Batimetri)",
+            "duration": "38:05"
+          },
+          {
+            "title": "Sedimen Bawah Laut",
+            "duration": "43:20"
+          },
+          {
+            "title": "Karakter Air Tawar",
+            "duration": "32:07"
+          },
+          {
+            "title": "Garam dan Karakter Air Asin",
+            "duration": "33:15"
+          },
+          {
+            "title": "Salinitas Air Laut",
+            "duration": "48:42"
+          },
+          {
+            "title": "Radiasi di Laut",
+            "duration": "39:32"
+          },
+          {
+            "title": "Cahaya di Laut",
+            "duration": "39:26"
+          },
+          {
+            "title": "Temperatur Air Laut",
+            "duration": "52:20"
+          }
+        ]
+      },
+      {
+        "title": "Astronomi",
+        "lessons": [
+          {
+            "title": "Pendahuluan Astronomi",
+            "duration": "24:33"
+          }
+        ]
+      },
+      {
+        "title": "Latihan Soal Berdasarkan Topik",
+        "lessons": [
+          {
+            "title": "Struktur Interior Bumi, Kristalografi dan Mineralogi"
+          },
+          {
+            "title": "Geologi Struktur dan Geomorfologi"
+          },
+          {
+            "title": "Paleontologi dan Stratigrafi"
+          },
+          {
+            "title": "Kebumian"
+          },
+          {
+            "title": "Sirkulasi Atmosfer dan Fenomena Meteorologi"
+          },
+          {
+            "title": "Bencana Meteorologi, Observasi, dan Presipitasi"
+          },
+          {
+            "title": "Dinamika Air Laut"
+          },
+          {
+            "title": "Gelombang dan Sifat Kimia-Fisika Air Laut"
+          },
+          {
+            "title": "Morfologi Bawah Laut dan Batimetri"
+          },
+          {
+            "title": "Astrometri dan Mekanika Benda Langit"
+          },
+          {
+            "title": "Astrofisika"
+          },
+          {
+            "title": "Tata Koordinat"
+          }
+        ]
+      },
+      {
+        "title": "Latihan Soal Berdasarkan Topik Bagian 2",
+        "lessons": [
+          {
+            "title": "Kristalogi dan Mineral"
+          },
+          {
+            "title": "Geologi Struktur"
+          },
+          {
+            "title": "Geomorfologi"
+          },
+          {
+            "title": "Paleontologi"
+          },
+          {
+            "title": "Awan"
+          },
+          {
+            "title": "Dinamika Atmosfer"
+          },
+          {
+            "title": "Sistem Bumi"
+          },
+          {
+            "title": "Dinamika Air Laut"
+          },
+          {
+            "title": "Geofisika"
+          },
+          {
+            "title": "Astrofisika"
+          },
+          {
+            "title": "Sifat Kimia dan Fisika Air Laut"
+          },
+          {
+            "title": "Lingkungan Laut"
+          },
+          {
+            "title": "Kehidupan Laut"
+          },
+          {
+            "title": "Tata Koordinat"
+          },
+          {
+            "title": "Fenomena Langit"
+          }
+        ]
+      },
+      {
+        "title": "Modul 1: Dinamika Litosfer dan Tektonik",
+        "lessons": [
+          {
+            "title": "Bab 1: Pendahuluan dan Pembentukan Bumi"
+          },
+          {
+            "title": "Latihan Soal: Gaya OSN"
+          },
+          {
+            "title": "Bab 2: Struktur Interior Bumi"
+          },
+          {
+            "title": "Bab 3: Teori Tektonik Lempeng"
+          },
+          {
+            "title": "Bab 4: Batas-Batas Lempeng"
+          },
+          {
+            "title": "Bab 5: Dampak Tektonik: Gempa Bumi dan Vulkanisme Dasar"
+          },
+          {
+            "title": "Latihan Soal Tingkat Lanjut"
+          },
+          {
+            "title": "Soal Latihan Akhir Modul 1"
+          }
+        ]
+      },
+      {
+        "title": "Modul 2: Mineralogi dan Petrologi",
+        "lessons": [
+          {
+            "title": "Bab 1: Mineralogi Dasar"
+          },
+          {
+            "title": "Bab 2: Siklus Batuan"
+          },
+          {
+            "title": "Bab 3: Batuan Beku"
+          },
+          {
+            "title": "Bab 4: Batuan Sedimen"
+          },
+          {
+            "title": "Bab 5: Batuan Metamorf"
+          },
+          {
+            "title": "Bab 6: Sumber Daya Geologi"
+          },
+          {
+            "title": "Bab 7: Bank Soal dan Evaluasi"
+          },
+          {
+            "title": "Latihan Soal: Mineralogi dan Petrologi"
+          },
+          {
+            "title": "Soal Latihan Akhir Modul 2"
+          }
+        ]
+      },
+      {
+        "title": "Modul 3: Geomorfologi dan Pedologi",
+        "lessons": [
+          {
+            "title": "Bab 1: Pelapukan dan Gerakan Tanah"
+          },
+          {
+            "title": "Bab 2: Bentang Alam Fluvial"
+          },
+          {
+            "title": "Bab 3: Bentang Alam Karst"
+          },
+          {
+            "title": "Bab 4: Bentang Alam Eolian dan Glasial"
+          },
+          {
+            "title": "Latihan Soal: Proses Permukaan dan Pedologi"
+          },
+          {
+            "title": "Soal Latihan Akhir"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pelatihan-osn-kimia-sma",
+    "title": "Olimpiade Kimia SMA",
+    "fullTitle": "Olimpiade Kimia SMA | OSN Kimia NLS ID",
+    "subject": "Kimia",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Han Yusan",
+    "instructorRole": "Mentor Olimpiade NLS",
+    "shortDescription": "Pembelajaran online Kimia untuk siswa SMA yang menargetkan seleksi OSN dengan materi terstruktur dan latihan berkala.",
+    "about": "Course ini menyiapkan fondasi konsep kimia olimpiade melalui video pembelajaran, bank soal, dan evaluasi yang bisa diakses secara online.",
+    "highlights": [
+      "Materi konsep inti kimia olimpiade",
+      "Latihan soal bertingkat",
+      "Akses belajar online fleksibel"
+    ],
+    "tags": [
+      "Kimia",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Stoikiometri dan konsep mol"
+          },
+          {
+            "title": "Struktur atom dan ikatan kimia"
+          },
+          {
+            "title": "Termokimia dan kesetimbangan"
+          },
+          {
+            "title": "Bank soal dan pembahasan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pelatihan-osn-informatika-sma",
+    "title": "Olimpiade Informatika SMA",
+    "fullTitle": "Olimpiade Informatika SMA | OSN Informatika NLS ID",
+    "subject": "Informatika",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Wahyuni Dwi Wulandari",
+    "instructorRole": "Mentor Informatika NLS",
+    "shortDescription": "Course online untuk logika algoritma, pemrograman, dan pembahasan soal olimpiade informatika.",
+    "about": "Dirancang untuk siswa yang ingin membangun dasar algoritma dan problem solving sebelum masuk ke latihan intensif tingkat OSN.",
+    "highlights": [
+      "Latihan algoritma bertahap",
+      "Pembahasan problem solving",
+      "Format belajar online yang mudah diikuti"
+    ],
+    "tags": [
+      "Informatika",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Dasar algoritma dan flowchart"
+          },
+          {
+            "title": "Struktur data dasar"
+          },
+          {
+            "title": "Pemrograman kompetitif"
+          },
+          {
+            "title": "Simulasi dan evaluasi soal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pelatihan-osn-ekonomi-sma",
+    "title": "Olimpiade Ekonomi SMA",
+    "fullTitle": "Olimpiade Ekonomi SMA | OSN Ekonomi NLS ID",
+    "subject": "Ekonomi",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Han Yusan",
+    "instructorRole": "Mentor Olimpiade NLS",
+    "shortDescription": "Kelas online ekonomi untuk memperkuat teori mikro, makro, dan latihan soal kompetitif.",
+    "about": "Pembelajaran mencakup penguatan konsep, studi kasus, dan soal latihan yang relevan dengan kebutuhan persiapan OSN Ekonomi.",
+    "highlights": [
+      "Teori mikro dan makro ekonomi",
+      "Latihan soal tematik",
+      "Akses course online fleksibel"
+    ],
+    "tags": [
+      "Ekonomi",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Konsep mikroekonomi"
+          },
+          {
+            "title": "Konsep makroekonomi"
+          },
+          {
+            "title": "Analisis data ekonomi"
+          },
+          {
+            "title": "Bank soal dan evaluasi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pelatihan-osn-geografi-sma",
+    "title": "Olimpiade Geografi SMA",
+    "fullTitle": "Olimpiade Geografi SMA | OSN Geografi NLS ID",
+    "subject": "Geografi",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Han Yusan",
+    "instructorRole": "Mentor Olimpiade NLS",
+    "shortDescription": "Kelas geografi online dengan fokus pada geosfer, analisis spasial, dan soal olimpiade.",
+    "about": "Course ini membantu siswa memahami geografi kompetitif melalui materi peta, dinamika wilayah, dan latihan soal yang terstruktur.",
+    "highlights": [
+      "Topik geosfer dan analisis spasial",
+      "Pembahasan soal pilihan",
+      "Rangkaian materi online siap dipelajari"
+    ],
+    "tags": [
+      "Geografi",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Dasar geografi fisik"
+          },
+          {
+            "title": "Geografi manusia dan wilayah"
+          },
+          {
+            "title": "Interpretasi peta dan data"
+          },
+          {
+            "title": "Latihan soal olimpiade"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pelatihan-osn-biologi-sma",
+    "title": "Olimpiade Biologi SMA",
+    "fullTitle": "Olimpiade Biologi SMA | OSN Biologi NLS ID",
+    "subject": "Biologi",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Han Yusan",
+    "instructorRole": "Mentor Olimpiade NLS",
+    "shortDescription": "Course online biologi untuk membangun fondasi konsep sel, genetika, fisiologi, dan soal olimpiade.",
+    "about": "Siswa akan mendapatkan alur belajar yang memadukan teori inti biologi, latihan soal, dan evaluasi mandiri secara online.",
+    "highlights": [
+      "Penguatan konsep biologi inti",
+      "Latihan soal dan pembahasan",
+      "Belajar online yang fleksibel"
+    ],
+    "tags": [
+      "Biologi",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Sel dan biokimia dasar"
+          },
+          {
+            "title": "Genetika dan evolusi"
+          },
+          {
+            "title": "Fisiologi tumbuhan dan hewan"
+          },
+          {
+            "title": "Bank soal dan evaluasi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pelatihan-osn-astronomi-sma",
+    "title": "Olimpiade Astronomi SMA",
+    "fullTitle": "Olimpiade Astronomi SMA | OSN Astronomi NLS ID",
+    "subject": "Astronomi",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Han Yusan",
+    "instructorRole": "Mentor Olimpiade NLS",
+    "shortDescription": "Pembelajaran astronomi online untuk astrofisika dasar, mekanika benda langit, dan latihan soal seleksi.",
+    "about": "Course ini membantu siswa memahami konsep astronomi yang sering muncul di seleksi OSN, dilengkapi latihan dan pembahasan.",
+    "highlights": [
+      "Dasar astronomi dan mekanika langit",
+      "Latihan per topik",
+      "Course online yang mudah dijelajahi"
+    ],
+    "tags": [
+      "Astronomi",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Dasar astrometri"
+          },
+          {
+            "title": "Mekanika benda langit"
+          },
+          {
+            "title": "Astrofisika dasar"
+          },
+          {
+            "title": "Simulasi soal olimpiade"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pelatihan-osn-fisika-sma",
+    "title": "Olimpiade Fisika SMA",
+    "fullTitle": "Olimpiade Fisika SMA | OSN Fisika NLS ID",
+    "subject": "Fisika",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Han Yusan",
+    "instructorRole": "Mentor Olimpiade NLS",
+    "shortDescription": "Course fisika online untuk mekanika, gelombang, listrik, dan pembahasan soal olimpiade.",
+    "about": "Pembelajaran fisika difokuskan pada konsep kuat, latihan bertingkat, dan pembahasan soal yang membantu siswa siap berkompetisi.",
+    "highlights": [
+      "Penguatan konsep fisika inti",
+      "Latihan soal gaya olimpiade",
+      "Belajar online lebih terarah"
+    ],
+    "tags": [
+      "Fisika",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Mekanika dan dinamika"
+          },
+          {
+            "title": "Gelombang dan termodinamika"
+          },
+          {
+            "title": "Listrik dan magnet"
+          },
+          {
+            "title": "Bank soal olimpiade"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "olimpiade-matematika-sma",
+    "title": "Olimpiade Matematika SMA",
+    "fullTitle": "Olimpiade Matematika SMA | OSN Matematika NLS ID",
+    "subject": "Matematika",
+    "category": "OSN",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Han Yusan",
+    "instructorRole": "Mentor Olimpiade NLS",
+    "shortDescription": "Kelas matematika online untuk aljabar, geometri, kombinatorika, dan teori bilangan tingkat olimpiade.",
+    "about": "Course ini membantu siswa menyusun fondasi matematika olimpiade melalui topik-topik utama dan latihan yang dapat dipelajari mandiri.",
+    "highlights": [
+      "Topik inti matematika olimpiade",
+      "Bank soal dan pembahasan",
+      "Akses belajar online fleksibel"
+    ],
+    "tags": [
+      "Matematika",
+      "OSN"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Aljabar dan fungsi"
+          },
+          {
+            "title": "Geometri olimpiade"
+          },
+          {
+            "title": "Kombinatorika dan teori bilangan"
+          },
+          {
+            "title": "Latihan soal bertahap"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "intensif-utbk-snbt-tps-literasi",
+    "title": "Intensif UTBK SNBT: TPS & Literasi",
+    "fullTitle": "Intensif UTBK SNBT: TPS & Literasi | Course NLS ID",
+    "subject": "TPS",
+    "category": "UTBK",
+    "level": "All Level",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Tim Akademik SNBT NLS",
+    "instructorRole": "Mentor UTBK NLS",
+    "shortDescription": "Course online untuk siswa kelas akhir yang ingin memperkuat TPS, literasi Bahasa Indonesia, dan literasi Bahasa Inggris.",
+    "about": "Course UTBK ini membantu siswa memahami struktur SNBT, menyusun strategi pengerjaan, dan berlatih secara bertahap melalui materi inti, video, serta sesi evaluasi.",
+    "highlights": [
+      "Materi TPS dan literasi yang sistematis",
+      "Simulasi belajar berbasis CBT",
+      "Strategi pengerjaan cepat dan akurat"
+    ],
+    "tags": [
+      "UTBK",
+      "SNBT",
+      "TPS"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Pengenalan format UTBK SNBT"
+          },
+          {
+            "title": "Strategi Tes Potensi Skolastik"
+          },
+          {
+            "title": "Literasi Bahasa Indonesia"
+          },
+          {
+            "title": "Literasi Bahasa Inggris"
+          },
+          {
+            "title": "Review dan mini tryout"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "penalaran-matematika-dan-tryout-snbt",
+    "title": "Penalaran Matematika & Tryout SNBT",
+    "fullTitle": "Penalaran Matematika & Tryout SNBT | Course NLS ID",
+    "subject": "SNBT",
+    "category": "UTBK",
+    "level": "All Level",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Tim Akademik SNBT NLS",
+    "instructorRole": "Mentor UTBK NLS",
+    "shortDescription": "Kelas online fokus penalaran matematika, pembahasan soal, dan adaptasi tryout berbasis komputer.",
+    "about": "Course ini ditujukan untuk siswa yang ingin menguatkan penalaran matematika sekaligus membiasakan diri dengan ritme tryout SNBT.",
+    "highlights": [
+      "Pendalaman penalaran matematika",
+      "Tryout dan review kesalahan",
+      "Belajar online dengan ritme mirip ujian"
+    ],
+    "tags": [
+      "UTBK",
+      "SNBT",
+      "Matematika"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Dasar penalaran matematika"
+          },
+          {
+            "title": "Pola soal dan teknik eliminasi"
+          },
+          {
+            "title": "Tryout mini berbasis CBT"
+          },
+          {
+            "title": "Analisis hasil dan tindak lanjut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pendalaman-tka-saintek",
+    "title": "Pendalaman TKA Saintek",
+    "fullTitle": "Pendalaman TKA Saintek | Course NLS ID",
+    "subject": "Saintek",
+    "category": "TKA",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Tim TKA NLS",
+    "instructorRole": "Mentor TKA NLS",
+    "shortDescription": "Course TKA untuk pendalaman mapel Saintek dengan latihan soal terarah dan evaluasi kesiapan ujian mandiri.",
+    "about": "Materi difokuskan pada konsep penting Saintek, latihan soal kompleks, dan strategi menjawab yang efisien untuk ujian berbasis mata pelajaran.",
+    "highlights": [
+      "Pendalaman materi Saintek",
+      "Latihan soal tingkat lanjut",
+      "Alur belajar online yang runtut"
+    ],
+    "tags": [
+      "TKA",
+      "Saintek"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Pemetaan materi inti Saintek"
+          },
+          {
+            "title": "Latihan soal per mapel"
+          },
+          {
+            "title": "Pembahasan HOTS"
+          },
+          {
+            "title": "Uji kesiapan akhir"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pendalaman-tka-soshum",
+    "title": "Pendalaman TKA Soshum",
+    "fullTitle": "Pendalaman TKA Soshum | Course NLS ID",
+    "subject": "Soshum",
+    "category": "TKA",
+    "level": "Intermediate",
+    "price": "Gratis",
+    "certificate": true,
+    "instructor": "Tim TKA NLS",
+    "instructorRole": "Mentor TKA NLS",
+    "shortDescription": "Course TKA untuk mapel Soshum dengan struktur belajar yang mudah diikuti dan fokus pada kesiapan ujian mandiri.",
+    "about": "Course ini membantu siswa memperdalam materi Soshum, mengelola pola latihan, dan mengevaluasi kesiapan ujian secara lebih terarah.",
+    "highlights": [
+      "Pendalaman materi Soshum",
+      "Bank soal dan review berkala",
+      "Format LMS yang mudah dipahami"
+    ],
+    "tags": [
+      "TKA",
+      "Soshum"
+    ],
+    "contentSections": [
+      {
+        "title": "Roadmap Belajar",
+        "lessons": [
+          {
+            "title": "Pemetaan materi inti Soshum"
+          },
+          {
+            "title": "Latihan soal per topik"
+          },
+          {
+            "title": "Pembahasan dan evaluasi"
+          },
+          {
+            "title": "Uji kesiapan akhir"
+          }
+        ]
+      }
+    ]
+  }
+]

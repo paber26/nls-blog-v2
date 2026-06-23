@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "utbk",
+    "label": "UTBK Tryout",
+    "title": "Simulasi SNBT dengan Format Mirip Ujian Asli",
+    "description": "Tryout UTBK NLS dirancang untuk membantu peserta membiasakan diri dengan ritme, tekanan waktu, dan pola soal seleksi masuk perguruan tinggi.",
+    "audience": "Siswa SMA/Gap Year",
+    "access": "Gratis & Premium",
+    "mode": "TPS, Literasi, dan paket latihan pendalaman",
+    "url": "https://utbk.next-level-study.com",
+    "theme": "from-amber-500 to-orange-500",
+    "surface": "bg-gradient-to-br from-amber-50 to-orange-50 border-amber-100",
+    "points": [
+      "Tersedia tryout gratis untuk kamu yang ingin mulai berlatih.",
+      "Kamu juga bisa memilih paket premium untuk latihan yang lebih intensif dan terarah.",
+      "Tampilan soal, timer, dan ritme pengerjaan diarahkan menyerupai ujian asli."
+    ]
+  },
+  {
+    "slug": "osn",
+    "label": "OSN Tryout",
+    "title": "Tryout Olimpiade untuk Latihan Kompetitif dan Terukur",
+    "description": "Platform OSN NLS membantu peserta melatih kecepatan berpikir, akurasi, dan kesiapan menghadapi seleksi berjenjang dari tingkat sekolah hingga nasional.",
+    "audience": "Siswa Pembinaan Olimpiade",
+    "access": "Gratis & Premium",
+    "mode": "Bidang olimpiade dan seleksi bertahap",
+    "url": "https://osn.next-level-study.com",
+    "theme": "from-indigo-600 to-sky-500",
+    "surface": "bg-gradient-to-br from-indigo-50 to-sky-50 border-indigo-100",
+    "points": [
+      "Cocok untuk pemanasan sebelum seleksi atau tryout besar.",
+      "Tersedia paket yang lebih lengkap untuk kamu atau sekolah yang ingin latihan lebih serius.",
+      "Membantu peserta memahami tekanan kompetisi, bukan hanya teori materi."
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "pelatihan-siswa",
+    "title": "Pelatihan Siswa",
+    "badge": "Best",
+    "summary": "Program untuk sekolah dan siswa yang ingin menyiapkan kompetisi, penguatan karakter, dan kesiapan akademik secara lebih terarah.",
+    "description": "Produk ini cocok untuk sekolah yang membutuhkan pelatihan siswa dalam skala kelas, angkatan, atau tim delegasi lomba. NLS membantu menyusun format kegiatan, materi, mentor, dan target hasil yang jelas.",
+    "audience": "Sekolah, panitia sekolah, dan siswa SD hingga SMA.",
+    "highlights": [
+      "OSN, OPSI, FIKSI, FLS2N, dan O2SN",
+      "LDKS, LDKO, dan penguatan ekstrakurikuler",
+      "Psikotes, SNBT, ANBK, dan penguatan akademik"
+    ],
+    "outcomes": [
+      "Pelatihan lebih terstruktur",
+      "Materi menyesuaikan target sekolah",
+      "Pendampingan untuk kebutuhan lomba dan ujian"
+    ],
+    "accent": "indigo"
+  },
+  {
+    "slug": "pelatihan-guru",
+    "title": "Pelatihan Guru",
+    "badge": "Profesional",
+    "summary": "Layanan pengembangan kapasitas guru dan sekolah melalui pelatihan kinerja, workshop, dan pendampingan akademik.",
+    "description": "NLS menyediakan format pelatihan guru yang fleksibel, baik untuk in house training, workshop penyusunan perangkat ajar, maupun peningkatan kompetensi evaluasi pembelajaran.",
+    "audience": "Guru, sekolah, yayasan, dan komunitas pendidik.",
+    "highlights": [
+      "In house training",
+      "Pelatihan kinerja guru",
+      "Pelatihan pembuatan soal AKM Litnum"
+    ],
+    "outcomes": [
+      "Peningkatan kompetensi guru",
+      "Materi pelatihan kontekstual",
+      "Format kegiatan bisa disesuaikan kebutuhan sekolah"
+    ],
+    "accent": "emerald"
+  },
+  {
+    "slug": "bimbel-dan-privat",
+    "title": "Bimbel & Privat",
+    "badge": "Big Deal",
+    "summary": "Pendampingan belajar reguler maupun privat untuk target masuk universitas dan persiapan juara lomba nasional sampai internasional.",
+    "description": "Produk ini ditujukan bagi siswa dan orang tua yang ingin pembelajaran lebih personal. NLS menyesuaikan ritme belajar, target akademik, dan kebutuhan evaluasi dengan format yang lebih intensif.",
+    "audience": "Siswa dan orang tua yang membutuhkan pendampingan belajar personal.",
+    "highlights": [
+      "Persiapan masuk universitas",
+      "Persiapan juara lomba nasional hingga internasional",
+      "Kelas reguler, privat, dan intensif"
+    ],
+    "outcomes": [
+      "Jadwal belajar lebih fleksibel",
+      "Pendekatan personal sesuai kebutuhan siswa",
+      "Monitoring progres yang lebih dekat"
+    ],
+    "accent": "amber"
+  }
+]

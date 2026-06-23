@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "pelatihan-osn",
+    "title": "Pelatihan OSN",
+    "badge": "Olimpiade",
+    "summary": "Persiapan intensif Olimpiade Sains Nasional untuk jenjang SD, SMP, dan SMA dengan pembinaan bertahap.",
+    "description": "Program ini dirancang untuk siswa yang menargetkan seleksi OSN dari tingkat sekolah hingga nasional. Pendampingan difokuskan pada penguatan konsep, pembahasan soal HOTS, dan simulasi kompetisi berkala.",
+    "audience": "Siswa SD, SMP, dan SMA yang ingin fokus di cabang olimpiade tertentu.",
+    "features": [
+      "Matematika, Fisika, Biologi, Kimia, Astronomi, dan Informatika",
+      "Diagnostic test untuk pemetaan level awal",
+      "Pendampingan mentor spesialis per bidang",
+      "Tryout dan evaluasi performa berkala"
+    ],
+    "outcomes": [
+      "Roadmap belajar personal",
+      "Bank soal olimpiade terstruktur",
+      "Laporan progres per fase seleksi"
+    ],
+    "coursesIntro": "Program Olimpiade NLS juga terhubung dengan course-course per bidang yang bisa dibuka peserta untuk belajar lebih terstruktur, lengkap dengan materi, video, dan latihan soal.",
+    "courses": [
+      {
+        "title": "Olimpiade Kebumian SMA",
+        "subtitle": "OSN Kebumian NLS ID",
+        "level": "SMA/MA",
+        "subject": "Kebumian",
+        "slug": "pelatihan-osn-kebumian-sma"
+      },
+      {
+        "title": "Olimpiade Kimia SMA",
+        "subtitle": "OSN Kimia NLS ID",
+        "level": "SMA/MA",
+        "subject": "Kimia",
+        "slug": "pelatihan-osn-kimia-sma"
+      },
+      {
+        "title": "Olimpiade Informatika SMA",
+        "subtitle": "OSN Informatika NLS ID",
+        "level": "SMA/MA",
+        "subject": "Informatika",
+        "slug": "pelatihan-osn-informatika-sma"
+      },
+      {
+        "title": "Olimpiade Ekonomi SMA",
+        "subtitle": "OSN Ekonomi NLS ID",
+        "level": "SMA/MA",
+        "subject": "Ekonomi",
+        "slug": "pelatihan-osn-ekonomi-sma"
+      },
+      {
+        "title": "Olimpiade Geografi SMA",
+        "subtitle": "OSN Geografi NLS ID",
+        "level": "SMA/MA",
+        "subject": "Geografi",
+        "slug": "pelatihan-osn-geografi-sma"
+      },
+      {
+        "title": "Olimpiade Biologi SMA",
+        "subtitle": "OSN Biologi NLS ID",
+        "level": "SMA/MA",
+        "subject": "Biologi",
+        "slug": "pelatihan-osn-biologi-sma"
+      },
+      {
+        "title": "Olimpiade Astronomi SMA",
+        "subtitle": "OSN Astronomi NLS ID",
+        "level": "SMA/MA",
+        "subject": "Astronomi",
+        "slug": "pelatihan-osn-astronomi-sma"
+      },
+      {
+        "title": "Olimpiade Fisika SMA",
+        "subtitle": "OSN Fisika NLS ID",
+        "level": "SMA/MA",
+        "subject": "Fisika",
+        "slug": "pelatihan-osn-fisika-sma"
+      },
+      {
+        "title": "Olimpiade Matematika SMA",
+        "subtitle": "OSN Matematika NLS ID",
+        "level": "SMA/MA",
+        "subject": "Matematika",
+        "slug": "olimpiade-matematika-sma"
+      }
+    ],
+    "accent": "indigo"
+  },
+  {
+    "slug": "bimbel-utbk-snbt",
+    "title": "Bimbel UTBK / SNBT",
+    "badge": "Populer",
+    "summary": "Program terarah untuk siswa kelas akhir yang menargetkan PTN lewat jalur SNBT dengan strategi belajar terukur.",
+    "description": "Fokus pembelajaran ada pada Tes Potensi Skolastik, literasi, dan penalaran matematika. Siswa mendapatkan pola latihan yang konsisten, evaluasi kesalahan, serta simulasi CBT yang menyerupai ujian asli.",
+    "audience": "Siswa SMA/MA/sederajat yang menargetkan kampus negeri melalui SNBT.",
+    "features": [
+      "Kelas TPS, literasi Bahasa Indonesia, literasi Bahasa Inggris, dan penalaran matematika",
+      "Tryout CBT dan analisis hasil per subtes",
+      "Konsultasi strategi pilihan jurusan",
+      "Kelas reguler dan intensif menjelang ujian"
+    ],
+    "outcomes": [
+      "Target skor per subtes",
+      "Jadwal belajar mingguan",
+      "Review kelemahan dan rekomendasi tindak lanjut"
+    ],
+    "accent": "amber"
+  },
+  {
+    "slug": "tes-kemampuan-akademik",
+    "title": "Tes Kemampuan Akademik (TKA)",
+    "badge": "Pendalaman",
+    "summary": "Pendalaman materi spesifik untuk ujian mandiri PTN dan kebutuhan seleksi akademik berbasis mapel.",
+    "description": "Program TKA membantu siswa memperdalam mata pelajaran inti sesuai rumpun yang dipilih. Materi disusun untuk siswa yang butuh penguatan konsep lanjutan dan latihan soal dengan tingkat kesulitan tinggi.",
+    "audience": "Siswa yang mengikuti ujian mandiri PTN atau seleksi akademik berbasis mata pelajaran.",
+    "features": [
+      "Pilihan kelas Saintek, Soshum, dan campuran",
+      "Pendalaman konsep dan latihan soal bertahap",
+      "Pembahasan soal HOTS dan strategi pengerjaan",
+      "Konsultasi akademik dan pemetaan target kampus"
+    ],
+    "outcomes": [
+      "Ringkasan materi inti",
+      "Latihan terjadwal per mapel",
+      "Evaluasi kesiapan menghadapi ujian mandiri"
+    ],
+    "accent": "blue"
+  }
+]
