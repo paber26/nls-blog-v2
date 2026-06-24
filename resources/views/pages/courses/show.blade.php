@@ -1,7 +1,7 @@
 <x-layouts.app>
 <main class="bg-brand-surface pt-10 pb-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <a href="/courses" class="inline-flex items-center gap-2 text-sm font-semibold text-slate-500 hover:text-brand-blue mb-8 transition-colors">
+      <a href="/courses" class="inline-flex items-center gap-2 text-sm font-semibold text-on-surface-variant hover:text-brand-blue mb-8 transition-colors">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
@@ -15,7 +15,7 @@
               <span class="px-3 py-1 bg-brand-light/10 text-brand-light text-xs font-bold uppercase tracking-[0.2em] rounded-full border border-brand-light/20">
                 {{ $course->category }}
               </span>
-              <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold uppercase tracking-[0.2em] rounded-full">
+              <span class="px-3 py-1 bg-surface-container text-on-surface-variant text-xs font-bold uppercase tracking-[0.2em] rounded-full">
                 {{ $course->level }}
               </span>
             </div>
@@ -24,7 +24,7 @@
               {{ $course->title }}
             </h1>
             
-            <p class="text-lg leading-relaxed text-slate-600">
+            <p class="text-lg leading-relaxed text-on-surface-variant">
               {{ $course->short_description }}
             </p>
           </div>
@@ -34,9 +34,9 @@
           </div>
         </div>
 
-        <div class="bg-white rounded-[2rem] p-8 shadow-xl shadow-slate-200/40 border border-slate-100 sticky top-28 space-y-8">
-          <div class="space-y-2 pb-6 border-b border-slate-100">
-            <p class="text-sm font-semibold uppercase tracking-widest text-slate-400">Investasi Belajar</p>
+        <div class="bg-white rounded-[2rem] p-8 shadow-xl shadow-slate-200/40 border border-outline-variant sticky top-28 space-y-8">
+          <div class="space-y-2 pb-6 border-b border-outline-variant">
+            <p class="text-sm font-semibold uppercase tracking-widest text-outline">Investasi Belajar</p>
             <p class="text-4xl font-black text-slate-900">{{ $course->price }}</p>
           </div>
 
@@ -50,7 +50,7 @@
             <ul class="space-y-3">
               @if($course->highlights)
                 @foreach($course->highlights as $hl)
-                <li class="flex items-start gap-3 text-slate-600 text-sm">
+                <li class="flex items-start gap-3 text-on-surface-variant text-sm">
                   <span class="w-1.5 h-1.5 rounded-full bg-slate-300 mt-2 flex-shrink-0"></span>
                   <span class="leading-relaxed">{{ $hl }}</span>
                 </li>

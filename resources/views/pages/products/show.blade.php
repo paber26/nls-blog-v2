@@ -7,32 +7,32 @@ $accentClasses = [
 ];
 $accent = $accentClasses[$product->accent] ?? $accentClasses['blue'];
 @endphp
-<main class="bg-slate-50 pt-10 pb-24">
+<main class="bg-surface-container-low pt-10 pb-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <a href="/products" class="inline-flex items-center gap-2 text-sm font-semibold text-slate-500 hover:text-brand-blue mb-8 transition-colors">
+      <a href="/products" class="inline-flex items-center gap-2 text-sm font-semibold text-on-surface-variant hover:text-brand-blue mb-8 transition-colors">
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
         Kembali ke Produk
       </a>
 
-      <div class="bg-white rounded-[2.5rem] shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden">
+      <div class="bg-white rounded-[2.5rem] shadow-xl shadow-slate-200/50 border border-outline-variant overflow-hidden">
         <div class="p-8 md:p-14 lg:p-20 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div class="space-y-8">
-            <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-slate-200 bg-white">
+            <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-outline-variant bg-white">
               <span class="w-2.5 h-2.5 rounded-full {{ $accent['bg'] }}"></span>
-              <span class="text-xs font-bold uppercase tracking-[0.2em] text-slate-700">{{ $product->badge }}</span>
+              <span class="text-xs font-bold uppercase tracking-[0.2em] text-on-surface">{{ $product->badge }}</span>
             </div>
             
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 leading-tight">
               {{ $product->title }}
             </h1>
             
-            <p class="text-lg text-slate-600 leading-relaxed max-w-xl">
+            <p class="text-lg text-on-surface-variant leading-relaxed max-w-xl">
               {{ $product->summary }}
             </p>
 
-            <div class="pt-6 border-t border-slate-100">
+            <div class="pt-6 border-t border-outline-variant">
               <h3 class="font-bold text-slate-900 mb-4">Yang Akan Anda Dapatkan:</h3>
               <ul class="space-y-4">
                 @if($product->outcomes)
@@ -43,7 +43,7 @@ $accent = $accentClasses[$product->accent] ?? $accentClasses['blue'];
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <span class="text-slate-600 leading-relaxed">{{ $outcome }}</span>
+                    <span class="text-on-surface-variant leading-relaxed">{{ $outcome }}</span>
                   </li>
                   @endforeach
                 @endif

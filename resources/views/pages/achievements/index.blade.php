@@ -51,15 +51,15 @@ $galleryItems = [
         <h1 class="text-4xl md:text-5xl font-black text-brand-blue">
           Galeri Prestasi & Kegiatan
         </h1>
-        <p class="text-lg text-slate-600 leading-relaxed">
+        <p class="text-lg text-on-surface-variant leading-relaxed">
           Bukti nyata dari komitmen NLS dalam membimbing siswa meraih prestasi tingkat nasional hingga internasional.
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         @foreach($galleryItems as $item)
-        <article class="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/40 border border-slate-100 flex flex-col hover:-translate-y-2 transition-all duration-300">
-          <div class="relative h-64 overflow-hidden bg-slate-100">
+        <article class="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/40 border border-outline-variant flex flex-col hover:-translate-y-2 transition-all duration-300">
+          <div class="relative h-64 overflow-hidden bg-surface-container">
             <img src="{{ $item['image'] }}" alt="{{ $item['title'] }}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
             <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold text-brand-blue tracking-wide shadow-sm">
@@ -67,10 +67,10 @@ $galleryItems = [
             </div>
           </div>
           <div class="p-6 flex flex-col flex-grow">
-            <h3 class="text-xl font-bold font-heading text-slate-800 mb-2 leading-snug">
+            <h3 class="text-xl font-bold font-heading text-on-background mb-2 leading-snug">
               {{ $item['title'] }}
             </h3>
-            <p class="text-slate-600 text-sm leading-relaxed">
+            <p class="text-on-surface-variant text-sm leading-relaxed">
               {{ $item['caption'] }}
             </p>
           </div>

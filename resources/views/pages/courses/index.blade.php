@@ -79,20 +79,20 @@ $activeCategory = $category ?? 'Semua';
                 </svg>
                 @endif
               </div>
-              <span class="rounded-full bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-700">
+              <span class="rounded-full bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-on-surface">
                 {{ $categoryCounts[$cat['label']] ?? 0 }} course
               </span>
             </div>
             <p class="mt-4 text-sm font-semibold uppercase tracking-[0.2em]">{{ $cat['label'] }}</p>
             <h2 class="mt-2 text-2xl font-black leading-tight text-slate-900">{{ $cat['title'] }}</h2>
-            <p class="mt-3 text-sm leading-relaxed text-slate-700">{{ $cat['description'] }}</p>
+            <p class="mt-3 text-sm leading-relaxed text-on-surface">{{ $cat['description'] }}</p>
           </a>
           @endforeach
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           @foreach($courses as $course)
-          <a href="/courses/{{ $course->slug }}" class="group rounded-[2rem] border border-slate-100 bg-white p-6 shadow-xl shadow-slate-200/40 transition-all hover:-translate-y-2 hover:shadow-2xl flex flex-col h-full">
+          <a href="/courses/{{ $course->slug }}" class="group rounded-[2rem] border border-outline-variant bg-white p-6 shadow-xl shadow-slate-200/40 transition-all hover:-translate-y-2 hover:shadow-2xl flex flex-col h-full">
             <div
               class="rounded-[1.5rem] bg-gradient-to-br p-5 text-white {{ $course->category === 'OSN' ? 'from-indigo-700 to-sky-400' : ($course->category === 'UTBK' ? 'from-amber-500 to-orange-400' : 'from-blue-700 to-cyan-400') }}"
             >
@@ -110,13 +110,13 @@ $activeCategory = $category ?? 'Semua';
               <h2 class="text-2xl font-bold leading-tight text-slate-900 group-hover:text-brand-blue">
                 {{ $course->title }}
               </h2>
-              <p class="text-sm leading-relaxed text-slate-600 line-clamp-2">
+              <p class="text-sm leading-relaxed text-on-surface-variant line-clamp-2">
                 {{ $course->short_description }}
               </p>
               <div class="flex flex-wrap gap-2 pt-2">
                 @if($course->tags)
                   @foreach($course->tags as $tag)
-                  <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">
+                  <span class="rounded-full bg-surface-container px-3 py-1 text-xs font-semibold text-on-surface-variant">
                     {{ $tag }}
                   </span>
                   @endforeach
@@ -130,7 +130,7 @@ $activeCategory = $category ?? 'Semua';
         <aside class="space-y-6">
           <div class="rounded-[2rem] bg-white p-7 shadow-xl shadow-slate-200/40">
             <h2 class="text-2xl font-bold text-slate-900 mb-3">Kenapa struktur kategori penting?</h2>
-            <p class="text-sm leading-relaxed text-slate-600">
+            <p class="text-sm leading-relaxed text-on-surface-variant">
               Pengunjung akan lebih cepat paham jika jalur belajarnya dibedakan sejak awal: OSN untuk kompetisi, UTBK untuk SNBT, dan TKA untuk pendalaman mapel.
             </p>
           </div>

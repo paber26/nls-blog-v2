@@ -4,7 +4,7 @@
       'fixed top-0 z-50 w-full border-b transition-all',
       isMobileMenuOpen
         ? 'border-transparent bg-[#0caabf]'
-        : 'border-slate-100 bg-white/95 shadow-sm backdrop-blur-md'
+        : 'border-outline-variant bg-white/95 shadow-sm backdrop-blur-md'
     ]"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,7 +31,7 @@
           </div>
         </a>
 
-        <div class="hidden items-center gap-4 text-[15px] font-medium text-slate-600 md:flex lg:gap-6">
+        <div class="hidden items-center gap-4 text-[15px] font-medium text-on-surface-variant md:flex lg:gap-6">
           <div class="relative">
             <button
               type="button"
@@ -51,26 +51,26 @@
               class="fixed inset-x-0 top-20 z-50 px-4 sm:px-6 lg:px-8"
             >
               <div class="mx-auto max-w-7xl">
-                <div class="w-full max-w-5xl overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-[0_28px_80px_rgba(15,23,42,0.18)]" @click.stop>
+                <div class="w-full max-w-5xl overflow-hidden rounded-[1.75rem] border border-outline-variant bg-white p-5 shadow-[0_28px_80px_rgba(15,23,42,0.18)]" @click.stop>
                   <div class="mb-4 flex items-center justify-between px-1">
                     <div>
                       <p class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-light">Tentang NLS</p>
-                      <p class="mt-1 text-sm text-slate-500">Profil, layanan, dan rekam jejak Next Level Study.</p>
+                      <p class="mt-1 text-sm text-on-surface-variant">Profil, layanan, dan rekam jejak Next Level Study.</p>
                     </div>
                   </div>
 
                   <div class="grid grid-cols-3 gap-3">
-                    <a href="/#tentang" class="block rounded-[1.25rem] border border-slate-200 bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50" @click="activeDesktopMenu = null">
+                    <a href="/#tentang" class="block rounded-[1.25rem] border border-outline-variant bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50" @click="activeDesktopMenu = null">
                       <p class="font-bold text-slate-900">Tentang Kami</p>
-                      <p class="mt-1 text-sm leading-relaxed text-slate-500">Profil singkat, nilai, dan pendekatan belajar NLS.</p>
+                      <p class="mt-1 text-sm leading-relaxed text-on-surface-variant">Profil singkat, nilai, dan pendekatan belajar NLS.</p>
                     </a>
-                    <a href="/products" class="block rounded-[1.25rem] border border-slate-200 bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50" @click="activeDesktopMenu = null">
+                    <a href="/products" class="block rounded-[1.25rem] border border-outline-variant bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50" @click="activeDesktopMenu = null">
                       <p class="font-bold text-slate-900">Produk</p>
-                      <p class="mt-1 text-sm leading-relaxed text-slate-500">Layanan untuk sekolah, guru, siswa, dan orang tua.</p>
+                      <p class="mt-1 text-sm leading-relaxed text-on-surface-variant">Layanan untuk sekolah, guru, siswa, dan orang tua.</p>
                     </a>
-                    <a href="/achievements" class="block rounded-[1.25rem] border border-slate-200 bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50" @click="activeDesktopMenu = null">
+                    <a href="/achievements" class="block rounded-[1.25rem] border border-outline-variant bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50" @click="activeDesktopMenu = null">
                       <p class="font-bold text-slate-900">Achievement</p>
-                      <p class="mt-1 text-sm leading-relaxed text-slate-500">Dokumentasi kegiatan dan capaian Next Level Study.</p>
+                      <p class="mt-1 text-sm leading-relaxed text-on-surface-variant">Dokumentasi kegiatan dan capaian Next Level Study.</p>
                     </a>
                   </div>
                 </div>
@@ -97,38 +97,38 @@
               class="fixed inset-x-0 top-20 z-50 px-4 sm:px-6 lg:px-8"
             >
               <div class="mx-auto max-w-7xl">
-                <div class="w-full max-w-6xl overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-[0_28px_80px_rgba(15,23,42,0.18)]" @click.stop>
+                <div class="w-full max-w-6xl overflow-hidden rounded-[1.75rem] border border-outline-variant bg-white p-5 shadow-[0_28px_80px_rgba(15,23,42,0.18)]" @click.stop>
                   <div class="mb-4 flex items-center justify-between px-1">
                     <div>
                       <p class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-light">Belajar di NLS</p>
-                      <p class="mt-1 text-sm text-slate-500">Pilih jalur belajar yang paling sesuai dengan tujuan belajarmu.</p>
+                      <p class="mt-1 text-sm text-on-surface-variant">Pilih jalur belajar yang paling sesuai dengan tujuan belajarmu.</p>
                     </div>
                   </div>
 
                   <div class="grid grid-cols-3 gap-3 lg:grid-cols-5">
-                    <a href="/courses" class="block rounded-[1.25rem] border border-slate-200 bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50 lg:col-span-2" @click="activeDesktopMenu = null">
+                    <a href="/courses" class="block rounded-[1.25rem] border border-outline-variant bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50 lg:col-span-2" @click="activeDesktopMenu = null">
                       <p class="font-bold text-slate-900">Course Online</p>
-                      <p class="mt-1 text-sm leading-relaxed text-slate-500">LMS NLS untuk OSN, UTBK, dan TKA.</p>
+                      <p class="mt-1 text-sm leading-relaxed text-on-surface-variant">LMS NLS untuk OSN, UTBK, dan TKA.</p>
                     </a>
                     <a href="/tryouts" class="block rounded-[1.25rem] border border-emerald-100 bg-emerald-50 px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-emerald-200 hover:bg-emerald-100/70" @click="activeDesktopMenu = null">
                       <p class="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-600">Tryout</p>
                       <p class="mt-1 font-bold text-slate-900">Simulasi Ujian</p>
                     </a>
-                    <a href="/courses?category=OSN" class="block rounded-[1.25rem] border border-slate-200 bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-indigo-100 hover:bg-indigo-50/80" @click="activeDesktopMenu = null">
+                    <a href="/courses?category=OSN" class="block rounded-[1.25rem] border border-outline-variant bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-indigo-100 hover:bg-indigo-50/80" @click="activeDesktopMenu = null">
                       <p class="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-600">OSN</p>
                       <p class="mt-1 font-bold text-slate-900">Course Olimpiade</p>
                     </a>
-                    <a href="/courses?category=UTBK" class="block rounded-[1.25rem] border border-slate-200 bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-amber-100 hover:bg-amber-50/80" @click="activeDesktopMenu = null">
+                    <a href="/courses?category=UTBK" class="block rounded-[1.25rem] border border-outline-variant bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-amber-100 hover:bg-amber-50/80" @click="activeDesktopMenu = null">
                       <p class="text-sm font-semibold uppercase tracking-[0.2em] text-amber-600">UTBK</p>
                       <p class="mt-1 font-bold text-slate-900">Course SNBT</p>
                     </a>
-                    <a href="/courses?category=TKA" class="block rounded-[1.25rem] border border-slate-200 bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-blue-100 hover:bg-blue-50/80" @click="activeDesktopMenu = null">
+                    <a href="/courses?category=TKA" class="block rounded-[1.25rem] border border-outline-variant bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-blue-100 hover:bg-blue-50/80" @click="activeDesktopMenu = null">
                       <p class="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">TKA</p>
                       <p class="mt-1 font-bold text-slate-900">Pendalaman Akademik</p>
                     </a>
-                    <a href="/programs" class="block rounded-[1.25rem] border border-slate-200 bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50" @click="activeDesktopMenu = null">
+                    <a href="/programs" class="block rounded-[1.25rem] border border-outline-variant bg-white px-5 py-5 transition-all hover:-translate-y-0.5 hover:border-brand-light/30 hover:shadow-lg hover:shadow-slate-200/50" @click="activeDesktopMenu = null">
                       <p class="font-bold text-slate-900">Program</p>
-                      <p class="mt-1 text-sm leading-relaxed text-slate-500">Pendampingan belajar dan pembinaan terarah.</p>
+                      <p class="mt-1 text-sm leading-relaxed text-on-surface-variant">Pendampingan belajar dan pembinaan terarah.</p>
                     </a>
                   </div>
                 </div>
@@ -160,7 +160,7 @@
           <button
             @click="isMobileMenuOpen = !isMobileMenuOpen"
             class="relative z-[60] p-2 transition-colors focus:outline-none"
-            :class="isMobileMenuOpen ? 'text-white hover:text-white/80' : 'text-slate-600 hover:text-brand-blue'"
+            :class="isMobileMenuOpen ? 'text-white hover:text-white/80' : 'text-on-surface-variant hover:text-brand-blue'"
           >
             <template x-if="!isMobileMenuOpen">
               <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">

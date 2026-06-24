@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+@import '../../../../vendor/filament/filament/resources/css/base.css';
+
+@config 'tailwind.config.js';
+
+@layer components {
+    /* SaaS Theme Overrides */
+    
+    /* Subtle background */
+    body, .fi-body {
+        @apply bg-[#f8fafc] !important; /* slate-50 */
+    }
+
+    /* Topbar styling */
+    .fi-topbar {
+        @apply bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm !important;
+    }
+
+    /* Sidebar styling */
+    .fi-sidebar {
+        @apply bg-white border-r border-gray-200 shadow-none !important;
+    }
+
+    /* Cards and Form Sections */
+    .fi-ta-header, .fi-ta-content, .fi-section, .fi-wi-stats-overview-stat {
+        @apply shadow-sm border border-gray-200 rounded-xl bg-white !important;
+    }
+
+    /* Make buttons slightly less rounded than default if needed, or keep them */
+    .fi-btn {
+        @apply shadow-sm rounded-lg font-medium tracking-tight !important;
+    }
+
+    /* Inputs */
+    .fi-input-wrp {
+        @apply shadow-sm border-gray-200 rounded-lg !important;
+    }
+}

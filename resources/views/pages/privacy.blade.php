@@ -7,12 +7,12 @@
             Kebijakan Privasi
           </div>
           <h1 class="text-4xl font-black text-brand-blue">Bagaimana Data Pengguna Dikelola</h1>
-          <p class="text-lg leading-relaxed text-slate-600">
+          <p class="text-lg leading-relaxed text-on-surface-variant">
             NLS hanya menggunakan data yang dibutuhkan untuk konsultasi program, pendaftaran, dan komunikasi layanan.
           </p>
         </div>
 
-        <div class="space-y-6 text-slate-600 leading-relaxed">
+        <div class="space-y-6 text-on-surface-variant leading-relaxed">
           <section>
             <h2 class="text-2xl font-bold text-slate-900 mb-2">1. Data yang dikumpulkan</h2>
             <p>

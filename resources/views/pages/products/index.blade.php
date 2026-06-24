@@ -12,7 +12,7 @@ $accentClasses = [
         <h1 class="text-4xl md:text-5xl font-black text-brand-blue">
           Produk & Layanan NLS
         </h1>
-        <p class="text-lg text-slate-600 leading-relaxed">
+        <p class="text-lg text-on-surface-variant leading-relaxed">
           Eksplorasi layanan utama kami yang didesain untuk berbagai kebutuhan belajar, baik untuk siswa, guru, maupun lembaga pendidikan.
         </p>
       </div>
@@ -23,7 +23,7 @@ $accentClasses = [
             $accent = $accentClasses[$product->accent] ?? $accentClasses['blue'];
         @endphp
         <article
-          class="group flex h-full flex-col overflow-hidden rounded-[2rem] border border-slate-100 bg-white shadow-xl shadow-slate-200/40 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+          class="group flex h-full flex-col overflow-hidden rounded-[2rem] border border-outline-variant bg-white shadow-xl shadow-slate-200/40 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
         >
           <div class="relative p-6">
             <div class="absolute inset-6 rounded-[1.75rem] bg-gradient-to-br opacity-95 {{ $accent['card'] }}"></div>
@@ -58,7 +58,7 @@ $accentClasses = [
           </div>
 
           <div class="flex flex-1 flex-col px-6 pb-6">
-            <ul class="space-y-3 text-sm text-slate-600">
+            <ul class="space-y-3 text-sm text-on-surface-variant">
               @if($product->highlights)
                 @foreach($product->highlights as $highlight)
                 <li class="flex gap-3 leading-relaxed">
@@ -71,7 +71,7 @@ $accentClasses = [
 
             <a
               href="/products/{{ $product->slug }}"
-              class="mt-8 inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-3 font-semibold text-slate-700 transition-all hover:border-brand-light hover:text-brand-blue"
+              class="mt-8 inline-flex items-center justify-center rounded-full border border-outline-variant px-6 py-3 font-semibold text-on-surface transition-all hover:border-brand-light hover:text-brand-blue"
             >
               Lihat Produk
             </a>

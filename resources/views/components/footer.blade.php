@@ -17,7 +17,7 @@
               <span class="font-heading font-bold text-brand-light tracking-widest text-sm">STUDY</span>
             </div>
           </div>
-          <p class="text-slate-400 max-w-sm leading-relaxed">
+          <p class="text-outline max-w-sm leading-relaxed">
             Mitra terbaik bagi sekolah dan murid untuk bimbingan belajar eksklusif, pelatihan olimpiade sains, dan persiapan tembus PTN dengan sistem digital mutakhir.
           </p>
           <div class="flex space-x-4">
@@ -31,14 +31,14 @@
         <div>
           <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Tautan Cepat</h4>
           <ul class="space-y-3">
-            <li><a href="/#beranda" class="text-slate-400 hover:text-brand-light transition-colors">Beranda</a></li>
-            <li><a href="/#tentang" class="text-slate-400 hover:text-brand-light transition-colors">Tentang Kami</a></li>
-            <li><a href="/products" class="text-slate-400 hover:text-brand-light transition-colors">Produk</a></li>
-            <li><a href="/achievements" class="text-slate-400 hover:text-brand-light transition-colors">Achievement</a></li>
-            <li><a href="/courses" class="text-slate-400 hover:text-brand-light transition-colors">Course Online</a></li>
-            <li><a href="/tryouts" class="text-slate-400 hover:text-brand-light transition-colors">Tryout</a></li>
-            <li><a href="/programs" class="text-slate-400 hover:text-brand-light transition-colors">Program</a></li>
-            <li><a href="/articles" class="text-slate-400 hover:text-brand-light transition-colors">Artikel & Tips</a></li>
+            <li><a href="/#beranda" class="text-outline hover:text-brand-light transition-colors">Beranda</a></li>
+            <li><a href="/#tentang" class="text-outline hover:text-brand-light transition-colors">Tentang Kami</a></li>
+            <li><a href="/products" class="text-outline hover:text-brand-light transition-colors">Produk</a></li>
+            <li><a href="/achievements" class="text-outline hover:text-brand-light transition-colors">Achievement</a></li>
+            <li><a href="/courses" class="text-outline hover:text-brand-light transition-colors">Course Online</a></li>
+            <li><a href="/tryouts" class="text-outline hover:text-brand-light transition-colors">Tryout</a></li>
+            <li><a href="/programs" class="text-outline hover:text-brand-light transition-colors">Program</a></li>
+            <li><a href="/articles" class="text-outline hover:text-brand-light transition-colors">Artikel & Tips</a></li>
           </ul>
         </div>
         
@@ -49,19 +49,19 @@
               <div class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center flex-shrink-0">
                 <svg class="w-4 h-4 text-brand-light" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
               </div>
-              <span class="text-slate-400 pt-1 leading-relaxed">Jalan Pahlawan No. 26 <br/>Duren Jaya, Bekasi Timur</span>
+              <span class="text-outline pt-1 leading-relaxed">Jalan Pahlawan No. 26 <br/>Duren Jaya, Bekasi Timur</span>
             </li>
             <li class="flex items-center gap-4">
               <div class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center flex-shrink-0">
                 <svg class="w-4 h-4 text-brand-light" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
               </div>
-              <a href="https://wa.me/6285163070002" target="_blank" class="text-slate-400 hover:text-white transition-colors">+62 851-6307-0002</a>
+              <a href="https://wa.me/6285163070002" target="_blank" class="text-outline hover:text-white transition-colors">+62 851-6307-0002</a>
             </li>
           </ul>
         </div>
       </div>
       
-      <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+      <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-on-surface-variant">
         <p>Copyright &copy; 2026 Next Level Study Indonesia</p>
         <div class="flex items-center gap-4">
           <a href="/terms" class="hover:text-white transition-colors">Syarat & Ketentuan</a>

@@ -4,7 +4,7 @@
       <div class="rounded-[2rem] bg-white p-10 text-center shadow-xl shadow-slate-200/40">
         <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-light mb-3">404</p>
         <h1 class="text-4xl font-black text-slate-900 mb-4">Halaman tidak ditemukan</h1>
-        <p class="text-lg leading-relaxed text-slate-600 mb-8">
+        <p class="text-lg leading-relaxed text-on-surface-variant mb-8">
           URL yang dibuka tidak cocok dengan halaman yang tersedia pada website Next Level Study.
         </p>
         <div class="flex flex-col sm:flex-row justify-center gap-4">

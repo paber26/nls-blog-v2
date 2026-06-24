@@ -1,70 +1,49 @@
-<section id="beranda" class="relative pt-10 pb-20 lg:pt-16 lg:pb-28 overflow-hidden bg-brand-surface">
-    <!-- Decorative background elements -->
-    <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-light/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
-    <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-indigo-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3 pointer-events-none"></div>
-    
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-        <!-- Text Content -->
-        <div class="space-y-8 text-center lg:text-left">
-          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-light/10 text-brand-light font-medium text-sm mb-2 shadow-sm border border-brand-light/20">
-            <span class="w-2.5 h-2.5 rounded-full bg-brand-light animate-pulse"></span>
-            Pilihan Terbaik Untuk SD, SMP & SMA
-          </div>
-          
-          <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-[4.2rem] font-black tracking-tight text-brand-blue mb-6 leading-[1.15]">
-            Era Baru Pendidikan <br/>
-            <span class="text-gradient drop-shadow-sm">Next Level Study</span>
-          </h1>
-          
-          <p class="text-lg text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Membangun kualitas pelatihan berstandar tinggi untuk persiapan Olimpiade Siswa Nasional (OSN), UTBK/SNBT, dan TKA, lengkap dengan course online dan tryout digital yang dirancang menyerupai ujian asli.
-          </p>
-          
-          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-            <a href="/courses" class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-brand-light to-indigo-600 hover:from-indigo-600 hover:to-brand-light text-white rounded-full font-bold shadow-xl shadow-brand-light/30 transition-all hover:-translate-y-1 text-lg text-center">
-              Lihat Course Online
-            </a>
-            <a href="/tryouts" class="w-full sm:w-auto px-8 py-4 bg-white text-slate-700 hover:text-brand-blue border border-slate-200 rounded-full font-bold shadow-sm transition-all hover-lift flex items-center justify-center gap-2 text-lg group">
-              Ikuti Tryout
-              <svg class="w-5 h-5 text-slate-400 group-hover:text-brand-blue transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-            </a>
-          </div>
-          
-          <!-- Trust indicators -->
-          <div class="pt-8 mt-8 border-t border-slate-200/60 flex flex-wrap md:flex-nowrap items-center justify-center lg:justify-start gap-8 md:gap-12 text-slate-500">
-            <div class="flex flex-col items-center lg:items-start">
-              <span class="text-3xl font-black text-brand-blue mb-1">80+</span>
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Mitra Sekolah</span>
-            </div>
-            <div class="h-10 w-px bg-slate-200 hidden md:block"></div>
-            <div class="flex flex-col items-center lg:items-start">
-              <span class="text-3xl font-black text-brand-blue mb-1">5+</span>
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Kota di Indonesia</span>
-            </div>
-            <div class="h-10 w-px bg-slate-200 hidden md:block"></div>
-            <div class="flex flex-col items-center lg:items-start">
-              <span class="text-3xl font-black text-brand-blue mb-1">LMS</span>
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Course Online</span>
-            </div>
-          </div>
+<section id="beranda" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0 bg-gradient-to-r from-on-background/90 via-on-background/60 to-transparent z-10">
         </div>
-
-        <!-- Image Content -->
-        <div class="relative w-full h-full lg:min-h-[600px] flex justify-center items-center mt-8 lg:mt-0">
-          <div class="absolute inset-0 bg-gradient-to-tr from-brand-light to-brand-accent rounded-[3rem] transform rotate-3 scale-105 opacity-20 blur-2xl"></div>
-          <div class="relative w-full aspect-square md:aspect-[4/3] lg:aspect-auto lg:h-[90%] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white">
-            <img src="/images/hero.png" alt="Siswa Belajar Bersama NLS" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" />
-            <!-- Overlay feature highlight -->
-            <div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-md px-6 py-3 rounded-2xl shadow-xl flex items-center gap-4">
-              <div class="w-10 h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold">✓</div>
-              <div>
-                <p class="font-bold text-slate-800 text-sm">Course & Tryout</p>
-                <p class="text-slate-500 text-xs text-left">Belajar dan simulasi ujian</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <img alt="Hero Background" class="w-full h-full object-cover"
+            src="https://lh3.googleusercontent.com/aida/AP1WRLsjs-8GDHOLMK1rbcWdqvX-IBt1cz6EGasBkGP9tdyUrFkPdt5aB-Vn-Bd2XYRm-bbKl6yFVbId21MdrvzO7-aq91y8PlEkK45KiqaoOzY4jDl1UehAUXhxfaUj-g55fGAWbXN4geNDOCOC9bVgNKJrQzbeiY1kqFqmSNYcc-AHIL28ef3ZaljBPSPVdcz1bwBww4z8eeK-RbKX6FnhMjBDQZ-mpXGOt2JSh0q9dm8U4tRw_yVC7Y_1Nu_z" />
     </div>
-  </section>
+    <div class="container max-w-container-max mx-auto px-gutter relative z-20">
+        <div class="max-w-3xl">
+            <h1 class="font-display-lg text-display-lg text-white mb-6 leading-tight">
+                Masa Depan Akademik <br />Dimulai di <span class="text-secondary-container">Level Berikutnya.</span>
+            </h1>
+            <p class="font-body-lg text-body-lg text-white/80 mb-10 max-w-xl">
+                NLS menghadirkan standar baru dalam pendidikan melalui pendekatan personal, teknologi mutakhir, dan
+                pengajar ahli untuk membantu setiap siswa mencapai potensi maksimalnya.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="/courses"
+                    class="bg-primary-container text-on-primary px-8 py-4 rounded-xl font-button text-button shadow-xl flex items-center gap-2 hover:scale-105 transition-transform">
+                    Konsultasi Gratis
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+                <a href="/tryouts"
+                    class="border-2 border-white/30 text-white px-8 py-4 rounded-xl font-button text-button backdrop-blur-sm hover:bg-white/10 transition-colors">
+                    Lihat Program
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Floating Stats Glass Card -->
+    <div class="absolute bottom-12 right-12 hidden lg:block z-20">
+        <div class="glass-card p-8 rounded-3xl flex gap-12">
+            <div class="text-center">
+                <p class="text-primary font-display-lg text-headline-lg">98%</p>
+                <p class="text-on-surface-variant font-label-caps uppercase">Kelulusan PTN</p>
+            </div>
+            <div class="w-px bg-outline-variant/30"></div>
+            <div class="text-center">
+                <p class="text-primary font-display-lg text-headline-lg">15k+</p>
+                <p class="text-on-surface-variant font-label-caps uppercase">Alumni Sukses</p>
+            </div>
+            <div class="w-px bg-outline-variant/30"></div>
+            <div class="text-center">
+                <p class="text-primary font-display-lg text-headline-lg">500+</p>
+                <p class="text-on-surface-variant font-label-caps uppercase">Mentor Ahli</p>
+            </div>
+        </div>
+    </div>
+</section>

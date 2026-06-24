@@ -1,61 +1,71 @@
 import fs from 'fs';
 import path from 'path';
 
-const srcDir = path.resolve('../nls-blog-vue/src/views');
-const destDir = path.resolve('./resources/views/pages');
+function getAllFiles(dirPath, arrayOfFiles) {
+    const files = fs.readdirSync(dirPath);
 
-if (!fs.existsSync(destDir)) {
-    fs.mkdirSync(destDir, { recursive: true });
+    arrayOfFiles = arrayOfFiles || [];
+
+    files.forEach(function (file) {
+        if (fs.statSync(dirPath + "/" + file).isDirectory()) {
+            arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles);
+        } else {
+            if (file.endsWith('.blade.php')) {
+                arrayOfFiles.push(path.join(dirPath, "/", file));
+            }
+        }
+    });
+
+    return arrayOfFiles;
 }
 
-const files = fs.readdirSync(srcDir).filter(f => f.endsWith('.vue'));
+const files = getAllFiles('resources/views');
 
-function toKebabCase(str) {
-    return str.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
-}
+const mappings = {
+    // Brand colors
+    'brand-blue': 'primary',
+    'brand-light': 'primary-container',
+    'brand-accent': 'secondary-container',
+    'brand-surface': 'surface',
+    
+    // Slates (common tailwind gray) -> new theme colors
+    'text-slate-800': 'text-on-background',
+    'text-slate-700': 'text-on-surface',
+    'text-slate-600': 'text-on-surface-variant',
+    'text-slate-500': 'text-on-surface-variant',
+    'text-slate-400': 'text-outline',
+    
+    'bg-slate-50': 'bg-surface-container-low',
+    'bg-slate-100': 'bg-surface-container',
+    'bg-slate-200': 'bg-surface-container-high',
+    
+    'border-slate-100': 'border-outline-variant',
+    'border-slate-200': 'border-outline-variant',
+    'border-slate-300': 'border-outline',
+    
+    'shadow-sm': 'shadow-sm',
+    'shadow-md': 'shadow-md',
+};
+
+let replacedCount = 0;
 
 for (const file of files) {
-    if (file === 'HomeView.vue') continue;
+    let content = fs.readFileSync(file, 'utf8');
+    let original = content;
 
-    const content = fs.readFileSync(path.join(srcDir, file), 'utf-8');
+    for (const [oldClass, newClass] of Object.entries(mappings)) {
+        // We use a regex with word boundaries or class boundaries
+        // To handle e.g. text-brand-blue, bg-brand-light/10
+        // It's safer to just replace exact string occurrences because class names are bounded by spaces or quotes
+        // E.g. 'bg-brand-surface' -> 'bg-surface'
+        const regex = new RegExp(`(?<=[\"'\\s])${oldClass}(?=[\\s\"'/])`, 'g');
+        content = content.replace(regex, newClass);
+    }
     
-    const templateMatch = content.match(/<template>([\s\S]*?)<\/template>/);
-    if (templateMatch) {
-        let templateContent = templateMatch[1].trim();
-        
-        templateContent = templateContent.replace(/<RouterLink[^>]*:to="[^"]*path:\s*'([^']+)'[^>]*>/g, '<a href="$1"');
-        templateContent = templateContent.replace(/<RouterLink[^>]*:to="\{\s*name:\s*'([^']+)'\s*\}"[^>]*>/g, '<a href="/$1"');
-        templateContent = templateContent.replace(/<RouterLink[^>]*:to="\{\s*name:\s*'([^']+)',\s*params:\s*\{\s*slug:\s*([^\}]+)\s*\}\s*\}"[^>]*>/g, '<a href="/$1/{{ $2 }}"');
-        templateContent = templateContent.replace(/<RouterLink[^>]*:to="\{\s*name:\s*'([^']+)',\s*params:\s*\{\s*id:\s*([^\}]+)\s*\}\s*\}"[^>]*>/g, '<a href="/$1/{{ $2 }}"');
-        templateContent = templateContent.replace(/<\/RouterLink>/g, '</a>');
-        
-        let basename = file.replace('View.vue', '');
-        let dirName = '';
-        let fileName = '';
-
-        if (basename.endsWith('List')) {
-            dirName = basename.replace('List', '').toLowerCase() + 's';
-            if (dirName === 'tryouts') dirName = 'tryouts'; // simple plural
-            if (dirName === 'achievements') dirName = 'achievements';
-            if (dirName === 'articles') dirName = 'articles'; // 'ArticleList' -> articles
-            fileName = 'index.blade.php';
-        } else if (basename.endsWith('Detail')) {
-            dirName = basename.replace('Detail', '').toLowerCase() + 's';
-            if (dirName === 'articles') dirName = 'articles';
-            fileName = 'show.blade.php';
-        } else {
-            dirName = '';
-            fileName = toKebabCase(basename) + '.blade.php';
-        }
-
-        const outDir = dirName ? path.join(destDir, dirName) : destDir;
-        if (!fs.existsSync(outDir)) {
-            fs.mkdirSync(outDir, { recursive: true });
-        }
-
-        let finalContent = `<x-layouts.app>\n${templateContent}\n</x-layouts.app>`;
-
-        fs.writeFileSync(path.join(outDir, fileName), finalContent);
-        console.log(`Converted ${file} to ${path.join(dirName, fileName)}`);
+    if (content !== original) {
+        fs.writeFileSync(file, content);
+        replacedCount++;
     }
 }
+
+console.log(`Replaced classes in ${replacedCount} files.`);

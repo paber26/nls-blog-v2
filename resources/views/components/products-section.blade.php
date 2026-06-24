@@ -12,7 +12,7 @@
           <h2 class="text-4xl md:text-5xl font-black text-brand-blue">
             Layanan Utama Next Level Study
           </h2>
-          <p class="text-lg leading-relaxed text-slate-600">
+          <p class="text-lg leading-relaxed text-on-surface-variant">
             Selain course online dan tryout, kamu juga bisa melihat layanan NLS untuk sekolah, guru, dan siswa. Dengan begitu, kamu lebih mudah memahami pilihan layanan yang paling sesuai.
           </p>
         </div>
@@ -28,7 +28,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         @foreach($products as $product)
         <article
-          class="group flex h-full flex-col overflow-hidden rounded-[2rem] border border-slate-100 bg-white shadow-xl shadow-slate-200/40 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+          class="group flex h-full flex-col overflow-hidden rounded-[2rem] border border-outline-variant bg-white shadow-xl shadow-slate-200/40 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
         >
           <div class="relative p-6">
             <div class="absolute inset-6 rounded-[1.75rem] bg-gradient-to-br opacity-95"></div>
@@ -63,7 +63,7 @@
           </div>
 
           <div class="flex flex-1 flex-col px-6 pb-6">
-            <ul class="space-y-3 text-sm text-slate-600">
+            <ul class="space-y-3 text-sm text-on-surface-variant">
               @foreach($product->highlights as $highlight)
               <li
                 class="flex gap-3 leading-relaxed"
@@ -76,7 +76,7 @@
 
             <a
               href="/products/{{ $product->slug }}"
-              class="mt-8 inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-3 font-semibold text-slate-700 transition-all hover:border-brand-light hover:text-brand-blue"
+              class="mt-8 inline-flex items-center justify-center rounded-full border border-outline-variant px-6 py-3 font-semibold text-on-surface transition-all hover:border-brand-light hover:text-brand-blue"
             >
               Lihat Produk
             </a>

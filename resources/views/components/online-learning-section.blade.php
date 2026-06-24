@@ -21,7 +21,7 @@
           <h2 class="text-4xl md:text-5xl font-black text-brand-blue leading-tight">
             Belajar Online untuk <span class="text-gradient">OSN, UTBK, dan TKA</span>
           </h2>
-          <p class="max-w-2xl text-lg leading-relaxed text-slate-600">
+          <p class="max-w-2xl text-lg leading-relaxed text-on-surface-variant">
             Pilih jalur belajar yang paling sesuai dengan kebutuhanmu. Setiap kategori disusun jelas sejak awal, jadi kamu bisa langsung masuk ke course OSN, UTBK, atau TKA tanpa harus mencari-cari.
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
@@ -30,7 +30,7 @@
             </a>
             <a
               href="/courses?category=OSN"
-              class="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-7 py-4 text-base font-semibold text-slate-700 transition-all hover:border-brand-light hover:text-brand-blue"
+              class="inline-flex items-center justify-center rounded-full border border-outline-variant bg-white px-7 py-4 text-base font-semibold text-on-surface transition-all hover:border-brand-light hover:text-brand-blue"
             >
               Mulai dari OSN
             </a>
@@ -46,12 +46,12 @@
           <div class="rounded-[1.75rem] bg-brand-surface p-6 shadow-xl shadow-slate-200/60">
             <p class="text-sm font-semibold uppercase tracking-[0.2em] text-brand-light">Kategori</p>
             <p class="mt-4 text-4xl font-black text-brand-blue">3</p>
-            <p class="mt-2 text-sm leading-relaxed text-slate-600">Kategori dipisahkan dengan jelas agar kamu lebih cepat menemukan jalur belajar yang dicari.</p>
+            <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Kategori dipisahkan dengan jelas agar kamu lebih cepat menemukan jalur belajar yang dicari.</p>
           </div>
           <div class="rounded-[1.75rem] bg-gradient-to-br from-amber-100 to-orange-50 p-6 shadow-xl shadow-amber-100/80">
             <p class="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Course</p>
             <p class="mt-4 text-4xl font-black text-slate-900">13</p>
-            <p class="mt-2 text-sm leading-relaxed text-slate-700">Katalog campuran course yang bisa diarahkan langsung ke detail masing-masing.</p>
+            <p class="mt-2 text-sm leading-relaxed text-on-surface">Katalog campuran course yang bisa diarahkan langsung ke detail masing-masing.</p>
           </div>
         </div>
       </div>
@@ -80,14 +80,14 @@
                 </svg>
                 @endif
               </div>
-              <span class="rounded-full bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-700">
+              <span class="rounded-full bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-on-surface">
                 course
               </span>
             </div>
             <div>
               <p class="text-sm font-semibold uppercase tracking-[0.2em]">{{ $category['label'] }}</p>
               <h3 class="mt-2 text-3xl font-black leading-tight text-slate-900">{{ $category['title'] }}</h3>
-              <p class="mt-3 text-sm leading-relaxed text-slate-700">{{ $category['description'] }}</p>
+              <p class="mt-3 text-sm leading-relaxed text-on-surface">{{ $category['description'] }}</p>
             </div>
           </div>
         </a>
@@ -98,7 +98,7 @@
         @foreach($courses as $course)
         <a
           href="/courses/{{ $course->slug }}"
-          class="group rounded-[2rem] border border-slate-100 bg-brand-surface p-6 shadow-lg shadow-slate-200/40 transition-all hover:-translate-y-2 hover:shadow-2xl"
+          class="group rounded-[2rem] border border-outline-variant bg-brand-surface p-6 shadow-lg shadow-slate-200/40 transition-all hover:-translate-y-2 hover:shadow-2xl"
         >
           <div
             class="rounded-[1.5rem] bg-gradient-to-br p-5 text-white {{ $course->category === 'OSN' ? 'from-indigo-700 to-sky-400' : ($course->category === 'UTBK' ? 'from-amber-500 to-orange-400' : 'from-blue-700 to-cyan-400') }}"
@@ -112,7 +112,7 @@
             <h3 class="text-2xl font-bold leading-tight text-slate-900 group-hover:text-brand-blue">
               {{ $course->title }}
             </h3>
-            <p class="text-sm leading-relaxed text-slate-600 line-clamp-2">
+            <p class="text-sm leading-relaxed text-on-surface-variant line-clamp-2">
               {{ $course->short_description }}
             </p>
           </div>

@@ -37,7 +37,7 @@
         <h1 class="text-4xl md:text-5xl font-black text-brand-blue">
           Program Terbaik NLS
         </h1>
-        <p class="text-lg text-slate-600 leading-relaxed">
+        <p class="text-lg text-on-surface-variant leading-relaxed">
           Pilih program intensif yang paling sesuai dengan target akademismu, dari persiapan UTBK, OSN, hingga evaluasi komprehensif.
         </p>
       </div>
@@ -47,7 +47,7 @@
         @php
             $style = $programStyles[$program->slug] ?? $programStyles['pelatihan-osn'];
         @endphp
-        <div class="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 border border-slate-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-brand-light/30 group flex flex-col h-full relative overflow-hidden {{ $style['card'] }}">
+        <div class="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 border border-outline-variant transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-brand-light/30 group flex flex-col h-full relative overflow-hidden {{ $style['card'] }}">
           @if($program->badge === 'Populer')
           <div class="absolute top-4 right-4 text-xs font-bold px-3 py-1 rounded-full {{ $style['badge'] }}">
             POPULER
@@ -57,9 +57,9 @@
           <div class="w-16 h-16 rounded-2xl border flex items-center justify-center mb-6 group-hover:scale-110 group-hover:text-white transition-all duration-300 {{ $style['iconWrapper'] }}">
             <svg class="w-8 h-8 group-hover:text-white transition-colors {{ $style['iconColor'] }}" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
           </div>
-          <h3 class="text-2xl font-bold text-slate-800 mb-3 font-heading">{{ $program->title }}</h3>
-          <p class="text-slate-600 mb-6 flex-grow">{{ $program->summary }}</p>
-          <ul class="space-y-3 mb-8 text-sm text-slate-600 font-medium">
+          <h3 class="text-2xl font-bold text-on-background mb-3 font-heading">{{ $program->title }}</h3>
+          <p class="text-on-surface-variant mb-6 flex-grow">{{ $program->summary }}</p>
+          <ul class="space-y-3 mb-8 text-sm text-on-surface-variant font-medium">
             @if($program->features)
               @foreach(array_slice($program->features, 0, 4) as $feature)
               <li class="flex items-center gap-3">

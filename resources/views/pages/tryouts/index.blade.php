@@ -1,11 +1,11 @@
 <x-layouts.app>
-<main class="bg-slate-50 py-20 min-h-screen">
+<main class="bg-surface-container-low py-20 min-h-screen">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
         <h1 class="text-4xl md:text-5xl font-black text-brand-blue">
           Platform Tryout NLS
         </h1>
-        <p class="text-lg text-slate-600 leading-relaxed">
+        <p class="text-lg text-on-surface-variant leading-relaxed">
           Ukur kemampuanmu dengan sistem tryout terintegrasi yang mensimulasikan kondisi tes sebenarnya.
         </p>
       </div>
@@ -16,7 +16,7 @@
           href="{{ $platform->url }}"
           target="_blank"
           rel="noopener noreferrer"
-          class="group bg-white rounded-[2rem] p-8 shadow-xl shadow-slate-200/50 border border-slate-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl flex flex-col h-full"
+          class="group bg-white rounded-[2rem] p-8 shadow-xl shadow-slate-200/50 border border-outline-variant transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl flex flex-col h-full"
         >
           <div class="w-16 h-16 rounded-2xl bg-brand-light/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
             @if($platform->id === 1)
@@ -27,8 +27,8 @@
             <svg class="w-8 h-8 text-brand-light" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
             @endif
           </div>
-          <h3 class="text-2xl font-bold text-slate-800 mb-3">{{ $platform->name }}</h3>
-          <p class="text-slate-600 mb-8 flex-grow">{{ $platform->description }}</p>
+          <h3 class="text-2xl font-bold text-on-background mb-3">{{ $platform->name }}</h3>
+          <p class="text-on-surface-variant mb-8 flex-grow">{{ $platform->description }}</p>
           <div class="inline-flex items-center text-brand-light font-semibold group-hover:text-brand-blue transition-colors">
             Akses Platform
             <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">

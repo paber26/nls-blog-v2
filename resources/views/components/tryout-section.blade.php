@@ -61,32 +61,32 @@
         >
           <div class="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
             <div class="space-y-4">
-              <div class="inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-slate-700">
+              <div class="inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-on-surface">
                 {{ $platform->label }}
               </div>
               <div>
                 <h3 class="text-3xl font-black leading-tight text-slate-900">{{ $platform->title }}</h3>
-                <p class="mt-3 max-w-2xl text-sm leading-relaxed text-slate-600">{{ $platform->description }}</p>
+                <p class="mt-3 max-w-2xl text-sm leading-relaxed text-on-surface-variant">{{ $platform->description }}</p>
               </div>
             </div>
 
             <div class="rounded-[1.5rem] bg-white p-5 shadow-lg shadow-slate-200/70 lg:w-56">
-              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">Akses</p>
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-outline">Akses</p>
               <p class="mt-2 text-xl font-black text-slate-900">{{ $platform->access }}</p>
-              <p class="mt-3 text-sm text-slate-500">{{ $platform->mode }}</p>
+              <p class="mt-3 text-sm text-on-surface-variant">{{ $platform->mode }}</p>
             </div>
           </div>
 
           <div class="mt-6 grid gap-3 md:grid-cols-3">
             <div class="rounded-2xl bg-white/80 px-4 py-4 shadow-sm">
-              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">Target</p>
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-outline">Target</p>
               <p class="mt-2 font-bold text-slate-900">{{ $platform->audience }}</p>
             </div>
             @foreach(array_slice($platform->points, 0, 2) as $point)
             <div
               class="rounded-2xl bg-white/80 px-4 py-4 shadow-sm"
             >
-              <p class="text-sm leading-relaxed text-slate-700">{{ $point }}</p>
+              <p class="text-sm leading-relaxed text-on-surface">{{ $point }}</p>
             </div>
             @endforeach
           </div>
